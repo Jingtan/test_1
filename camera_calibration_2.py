@@ -9,14 +9,14 @@ import json
 
 
 
-name = '/2025-04-07_17_13_18_506.bmp'
+name = '/2025-04-07_17_13_18_506.bmp'   # 待标定图像
 # name_1 = 'GCK23040245'
 # name_1 = 'GCK24130223'
 name_1 = 'GCK24130015'
 # name_1 = 'GCK24130224'
-path = 'dh_img\\' + name_1
-path_1 = 'dh_imgtest_in\\' + name_1
-path_2 = 'dh_imgtest_out\\' + name_1
+path = 'dh_img\\' + name_1 # 标定参数位置
+path_1 = 'dh_imgtest_in\\' + name_1  # 待标定图像位置
+path_2 = 'dh_imgtest_out\\' + name_1  # 标定后的图像输出位置
 
 
 with open(path+ "/peremeters.json", 'r') as file:

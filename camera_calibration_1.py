@@ -11,7 +11,7 @@ import json
 # path = 'dh_img\GCK24130224'
 # path = 'dh_img\GCK23040245'
 # path = 'dh_img\GCK24130223'
-path = 'dh_img\GCK24130015'
+path = 'dh_img\GCK24130015'  # 标定板图像位置
 # name = '/2025-04-07_15_16_53_158.bmp'
 # 找棋盘格角点
 # 设置寻找亚像素角点的参数，采用的停止准则是最大循环次数30和最大误差容限0.001
